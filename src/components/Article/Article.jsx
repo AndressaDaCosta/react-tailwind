@@ -8,7 +8,7 @@ const Article = ({ title, text, tags, image, alt }) => {
 				{tags.map((tag) => (
 					<span
 						key={tag}
-						className="px-4 py-1 bg-alura-100 sm:hover:scale-110 hover:bg-alura-200 dark:bg-dark-100 rounded-full text-gray-200 text-xs font-bold uppercase ">
+						className="alura-tag">
 						{tag}
 					</span>
 				))}
